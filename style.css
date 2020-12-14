@@ -32,8 +32,8 @@ a:hover{
 
 .header_bg{
 	background-color: #f3c500;
-	/*position: fixed;
-	z-index: 999;*/
+	position: fixed;
+	z-index: 999;
 }
 .header_left{
 	float: left;

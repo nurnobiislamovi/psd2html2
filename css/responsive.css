@@ -58,7 +58,6 @@ px      68    160    252    */
 
 @media only screen and (max-width: 767px) {
 	
-
 	.wrap{
 	margin: 0 2.5% auto;
 	width:95%;
@@ -71,7 +70,9 @@ px      68    160    252    */
 	text-align: center;
 	}
 	.header_left h4{margin-top: 0;
-		padding-top: 5px;}
+		padding-top: 5px;
+		margin-bottom: 0;
+	}
 	#header .nav{
 		float: none;
 		display:block;
@@ -164,8 +165,8 @@ px      68    160    252    344    436    */
 	
 	
 	.wrap{
-	padding: 0 15% auto;
-	width:70%;
+	padding: 0 10% auto;
+	width:80%;
 	display:block;
 	margin:0 auto;
 	}
