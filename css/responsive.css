@@ -1,0 +1,210 @@
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+*/
+
+.wrap{
+	padding: 0 10% auto;
+	width:80%;
+	display:block;
+	margin:0 auto;
+}
+
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.wrap{
+	padding: 0 5% auto;
+	width:90%;
+	display:block;
+	margin:0 auto;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+
+	.wrap{
+	margin: 0 2.5% auto;
+	width:95%;
+	display:block;
+	margin:0 auto;
+	}
+	.header_left{
+	float: none;
+	display: block;
+	text-align: center;
+	}
+	.header_left h4{margin-top: 0;
+		padding-top: 5px;}
+	#header .nav{
+		float: none;
+		display:block;
+		text-align: center;
+	}
+	#about .full_item .item {
+    float: none;
+    width: 95%;
+    margin-right: 0;
+    padding: 0 2.5%;
+    text-align: center;
+    margin-bottom: 20px;
+	}
+	#about .full_item .item .left {
+    float: left;
+    margin-bottom: 0%;
+	}
+
+	#about .full_item .item .left .icon {
+	    margin-left: -100%;
+	}
+	#skill .skill_item {
+    float: none;
+    width: 100%;
+    margin-right: 0%;
+	}
+
+	#services .full_item .item {
+    float: none;
+    width: 100%;
+    margin-right: 0%;
+    margin-bottom: 20px;
+    border-top: 1px solid gray;
+	}
+	#prices .item {
+    float: none;
+    width: 100%;
+    margin-right: 0%;
+    margin-bottom: 50px;
+	}
+	#contacts .left {
+    float: none;
+    width: 100%;
+    margin-bottom: 50px;
+	}
+	#contacts .right {
+    float: none;
+    width: 100%;
+    margin-bottom: 50px;
+	}
+	#footer .subscribe {
+    float: none;
+    width: 100%;
+    margin-right: 0%;
+	}
+	#footer .recent {
+    float: none;
+    width: 100%;
+    margin-right: 0%;
+	}
+	#footer .footer_r {
+    float: none;
+    width: 100%;
+    margin-right: 0%;
+	}
+		
+	
+}
+
+
+
+
+
+
+
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+
+	
+	
+	.wrap{
+	padding: 0 15% auto;
+	width:70%;
+	display:block;
+	margin:0 auto;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
